@@ -1,0 +1,5 @@
+		<!-- Mobile Scripts -->
+		<script src="JS/Base/DB.js"></script>
+		<script src="JS/Base/MobileInput.js"></script>
+		<script src="JS/Base/GPInput.js"></script>
+		<script src="JS/Shooter/MobileHooks.js"></script>

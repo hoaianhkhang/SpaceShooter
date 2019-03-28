@@ -1,0 +1,36 @@
+		<!-- Helpers -->
+
+		<!-- Engine -->
+		<script src="JS/Base/Constants.js"></script>
+		<script src="JS/Base/Helpers.js"></script>
+		<script src="JS/Base/Logger.js"></script>
+		<script src="JS/Base/Resource.js"></script>
+		<script src="JS/Base/ImageResource.js"></script>
+		<script src="JS/Base/Spritesheet.js"></script>
+		<script src="JS/Base/State.js"></script>
+		<script src="JS/Base/Messenger.js"></script>
+		<script src="JS/Base/FlagPole.js"></script>
+		<script src="JS/Base/GameLoop.js"></script>
+		<script src="JS/Base/Vector2.js"></script>
+		<script src="JS/Base/Timer.js"></script>
+		<script src="JS/Base/Input.js"></script>
+		<script src="JS/Base/Shape.js"></script>
+		<script src="JS/Base/Circle.js"></script>
+		<script src="JS/Base/Box.js"></script>
+		<script src="JS/Base/Polygon.js"></script>
+		<script src="JS/Base/Camera2D.js"></script>
+
+		<!-- Game -->
+		<script src="JS/Shooter/Constants.js"></script>
+		<script src="JS/Shooter/GameObject.js"></script>
+		<script src="JS/Shooter/Pattern.js"></script>
+		<script src="JS/Shooter/Action.js"></script>
+		<script src="JS/Shooter/Character.js"></script>
+		<script src="JS/Shooter/AI.js"></script>
+		<script src="JS/Shooter/Actor.js"></script>
+		<script src="JS/Shooter/Spawner.js"></script>
+		<script src="JS/Shooter/Stage.js"></script>
+		<script src="JS/Shooter/Shooter.js"></script>
+		<script src="JS/Shooter/Startup.js"></script>
+
+

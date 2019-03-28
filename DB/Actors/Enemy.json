@@ -1,0 +1,49 @@
+{
+
+	"entity":
+	{
+
+		"object":
+		{
+
+			"circle":
+			{
+
+				"x": 0,
+				"y": 0,
+				"radius": 5
+
+			},
+			"direction":
+			{
+
+				"x": -1,
+				"y": 0
+
+			},
+			"health": 2,
+			"damage": 1,
+			"delay": 500,
+			"flag": 2,
+			"debug":
+			{
+
+				"fill_color": "rgba(255, 0, 0, 0.5)",
+				"line_width": 2,
+				"line_color": "rgba(255, 255, 255, 0.8)"
+
+			}
+
+		},
+		"actions": []
+
+	},
+	"ai":
+	{
+
+		"movement_x": "-10",
+		"movement_y": "0"
+
+	}
+
+}

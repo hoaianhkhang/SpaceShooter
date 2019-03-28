@@ -1,0 +1,6 @@
+		<!-- Web Scripts -->
+		<script src="JS/Shooter/WebDB.js"></script>
+		<script src="JS/Base/MKInput.js"></script>
+		<script src="JS/Base/GPInput.js"></script>
+		<script src="JS/Shooter/PCHooks.js"></script>
+	

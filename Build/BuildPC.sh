@@ -1,0 +1,1 @@
+./BuildIndex. -p

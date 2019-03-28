@@ -1,0 +1,9 @@
+	</head>
+	<body>
+		<div id="render_container">
+			<canvas id="render_canvas" class="flat-canvas" touch-action="none">
+				Please upgrade your browser to support HTML5 canvas.
+			</canvas>
+		</div>
+	</body>
+</html>

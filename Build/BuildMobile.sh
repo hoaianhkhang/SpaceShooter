@@ -1,0 +1,1 @@
+./BuildIndex.sh -m
