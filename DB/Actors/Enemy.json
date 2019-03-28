@@ -1,49 +1,64 @@
 {
 
-	"entity":
-	{
-
-		"object":
-		{
-
-			"circle":
+			"entity":
 			{
 
-				"x": 0,
-				"y": 0,
-				"radius": 5
+				"object":
+				{
+
+					"position":
+					{
+
+						"x": 0,
+						"y": 0
+
+					},
+					"shapes":
+					[
+
+						{
+
+							"type": "Circle",
+							"x": 0,
+							"y": 0,
+							"radius": 5
+
+						}
+
+					],
+					"direction":
+					{
+
+						"x": -1,
+						"y": 0
+
+					},
+					"health": 2,
+					"damage": 1,
+					"delay": 500,
+					"flag": 2,
+					"debug":
+					{
+
+						"fill_color": "rgba(255, 0, 0, 0.5)",
+						"line_width": 2,
+						"line_color": "rgba(255, 255, 255, 0.8)"
+
+					},
+					"spritesheet": "Empty"
+
+				},
+				"actions":
+				[
+				]
 
 			},
-			"direction":
+			"ai":
 			{
 
-				"x": -1,
-				"y": 0
-
-			},
-			"health": 2,
-			"damage": 1,
-			"delay": 500,
-			"flag": 2,
-			"debug":
-			{
-
-				"fill_color": "rgba(255, 0, 0, 0.5)",
-				"line_width": 2,
-				"line_color": "rgba(255, 255, 255, 0.8)"
+				"movement_x": "-10",
+				"movement_y": "0"
 
 			}
 
-		},
-		"actions": []
-
-	},
-	"ai":
-	{
-
-		"movement_x": "-10",
-		"movement_y": "0"
-
-	}
-
-}
+		}

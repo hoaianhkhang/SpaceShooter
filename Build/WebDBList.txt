@@ -1,0 +1,5 @@
+Characters/Player
+Stages/Stage
+Patterns/Bullet
+Actors/Enemy
+Sheets/Empty

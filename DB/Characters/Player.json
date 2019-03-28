@@ -1,60 +1,75 @@
 {
 
-	"entity":
-	{
+			"entity":
+ 			{
 
-		"object":
-		{
+				"object":
+				{
 
-			"circle":
-			{
+					"position":
+					{
 
-				"x": 100,
-				"y": 100,
-				"radius": 10
+						"x": 100,
+						"y": 100
 
-			},
-			"direction":
-			{
+					},
+					"shapes":
+					[
 
-				"x": 1,
-				"y": 0
+						{
 
-			},
-			"health": 1,
-			"damage": 1,
-			"delay": 1000,
-			"flag": 1,
-			"debug":
-			{
+							"type": "Circle",
+							"x": 0,
+							"y": 0,
+							"radius": 10
 
-				"fill_color": "rgba(0, 255, 0, 0.5)",
-				"line_width": 2,
-				"line_color": "rgba(255, 255, 255, 0.8)"
+						}
 
-			}
+					],
+					"direction":
+					{
 
-		},
-		"actions":
-		[
+						"x": 1,
+						"y": 0
 
-			{
+					},
+					"health": 1,
+					"damage": 1,
+					"delay": 1000,
+					"flag": 1,
+					"debug":
+					{
 
-				"rof": 500,
-				"duration": 100,
-				"block": true,
-				"patternIds":
+						"fill_color": "rgba(0, 255, 0, 0.5)",
+						"line_width": 2,
+						"line_color": "rgba(255, 255, 255, 0.8)"
+
+					},
+					"spritesheet": "Empty"
+
+				},
+				"actions":
 				[
 
-					"Bullet"
+					{
+
+						"rof": 500,
+						"duration": 100,
+						"block": true,
+						"patternIds":
+						[
+
+							"Bullet"
+
+						]
+
+					}
 
 				]
-				
-			}
 
-		]
-	},
-	"vSpeed": 25,
-	"hSpeed": 25
+			},
+			"vSpeed": 25,
+			"hSpeed": 25,
+			"forward": 0
 
-}
+		}

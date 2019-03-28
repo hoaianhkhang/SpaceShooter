@@ -1,0 +1,34 @@
+	};
+
+}
+
+DB.LoadImage = function(locator, caller)
+{
+
+	json = {};
+
+	json.src = "DB/Images/" + locator;
+
+	caller.Populate(json, false);
+
+}
+
+DB.LoadResource = function(locator, caller)
+{
+
+	var json = {};
+
+	if(!(locator in DB.master))
+	{
+
+		Logger.LogError("Attempting to load unknown resource " + locator);
+
+		return;
+
+	}
+
+	json = DB.master[locator];
+
+	caller.Populate(json, false);
+
+}

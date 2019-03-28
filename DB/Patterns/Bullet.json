@@ -1,45 +1,58 @@
 {
 
-	"pattern":
-	{
-
-		"object":
-		{
-
-			"circle":
+			"pattern":
 			{
 
-				"x": 0,
-				"y": 0,
-				"radius": 3
+				"object":
+				{
+
+					"position":
+					{
+
+						"x": 0,
+						"y": 0
+
+					},
+					"shapes":
+					[
+
+						{
+
+							"type": "Circle",
+							"x": 0,
+							"y": 0,
+							"radius": 3
+
+						}
+
+					],
+					"direction":
+					{
+
+						"x": 1,
+						"y": 0
+
+					},
+					"health": 1,
+					"damage": 1,
+					"delay": 0,
+					"flag": 0,
+					"debug":
+					{
+
+						"fill_color": "rgba(0, 0, 255, 0.5)",
+						"line_width": 2,
+						"line_color": "rgba(255, 255, 255, 0.8)"
+
+					},
+					"spritesheet": "Empty"
+
+				},
+				"rule": 1
 
 			},
-			"direction":
-			{
+			"xParam": "50",
+			"yParam": "0",
+			"angleParam": "0"
 
-				"x": 1,
-				"y": 0
-
-			},
-			"health": 1,
-			"damage": 1,
-			"delay": 0,
-			"flag": 0,
-			"debug":
-			{
-
-				"fill_color": "rgba(0, 0, 255, 0.5)",
-				"line_width": 2,
-				"line_color": "rgba(255, 255, 255, 0.8)"
-
-			}
-
-		},
-		"rule": 1
-
-	},
-	"xParam": "50",
-	"yParam": "0",
-	"angleParam": "0"
-
-}
+		}

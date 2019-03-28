@@ -1,113 +1,156 @@
 {
 
-	"bounds":
-	{
+			"bounds":
+			{
 
-		"x": 0,
-		"y": 0,
-		"width": 3840,
-		"height": 1080
+				"x": 0,
+				"y": 0,
+				"width": 3840,
+				"height": 1080
 
-	},
-	"player_area":
-	{
+			},
+			"player_area":
+			{
 
-		"x": 0,
-		"y": 0,
-		"width": 1920,
-		"height": 1080
+				"x": 0,
+				"y": 9,
+				"width": 1920,
+				"height": 1080
 
-	},
-	"in_bounds":
-	{
+			},
+			"in_bounds":
+			{
 
-		"x": 0,
-		"y": 0,
-		"width": 2120,
-		"height": 1280
+				"x": 0,
+				"y": 0,
+				"width": 2120,
+				"height": 1280
 
-	},
-	"mode":
-	{
+			},
+			"mode":
+			{
 
-		"mode": 0,
-		"scroll":
-		{
+				"mode": 0,
+				"scroll":
+				{
 
-			"x": "25",
-			"y": "0"
+					"x": "25",
+					"y": "0"
 
-		}
+				}
 
-	},
-	"spawners":
-	[
-
-		{
-
-			"x": 1000,
-			"y": 200,
-			"spawns":
-			[
-
-				"Enemy"
-
-			],
-			"data":
+			},
+			"spawners":
 			[
 
 				{
 
-					"rule": 1,
 					"x": 1000,
-					"y": 200
+					"y": 200,
+					"spawns":
+					[
+
+						"Enemy"
+
+					],
+					"data":
+					[
+
+							{
+
+								"rule": 1,
+								"x": 1000,
+								"y": 200
+
+							},
+							{
+
+								"rule": 4,
+								"count": 1
+
+							}
+
+					]
 
 				},
 				{
 
-					"rule": 4,
-					"count": 1
+					"x": 3500,
+					"y": 700,
+					"spawns":
+					[
+
+						"Enemy"
+
+					],
+					"data":
+					[
+
+						{
+
+							"rule": 1,
+							"x": 3500,
+							"y": 700
+
+						},
+						{
+
+							"rule": 2,
+							"interval": 5000
+
+						},
+						{
+
+							"rule": 4,
+							"count": 2
+
+						}
+
+					]
+
 				}
-
-			]
-		},
-		{
-
-			"x": 3500,
-			"y": 700,
-			"spawns":
-			[
-
-				"Enemy"
 
 			],
-			"data":
+			"victory_data":
 			[
 
 				{
 
-					"rule": 1,
-					"x": 3500,
-					"y": 700
-
-				},
-				{
-
-					"rule": 2,
-					"interval": 5000
-
-				},
-				{
-
-					"rule": 4,
-					"count": 3
+					"condition": 1,
+					"x": 3839,
+					"y": 1
 
 				}
 
-			]
-		
+			],
+			"debug":
+			{
+
+				"player_area":
+				{
+
+					"fill_color": "rgba(255, 0, 0, 0.1)",
+					"line_width": 4,
+					"line_color": "rgba(255, 255, 255, 0.5)"
+
+				},
+				"in_bounds":
+				{
+
+					"fill_color": "rgba(0, 255, 0, 0.1)",
+					"line_width": 4,
+					"line_color": "rgba(255, 255, 255, 0.5)"
+
+				},
+				"bounds":
+				{
+
+					"fill_color": "rgba(0, 0, 255, 0.1)",
+					"line_width": 4,
+					"line_color": "rgba(255, 255, 255, 0.5)"
+
+				}
+
+			}
+
 		}
-
-	]
-
-}
