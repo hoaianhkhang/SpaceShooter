@@ -4,12 +4,12 @@ OUTPUT="../JS/Shooter/WebDB.js"
 
 cat ${DIRECTORY}WebDBHead.jsf > ${OUTPUT}
 
-while read line; do
+sed -i 's/\r$//' WebDBList.txt 
 
+while read line; do
 	echo "\"${line}\":" >> ${OUTPUT}
 	cat ${DB}${line}.json >> ${OUTPUT}
 	echo "," >> ${OUTPUT}
-
 done < WebDBList.txt
 
 sed -i '$ s/.$//' ${OUTPUT}

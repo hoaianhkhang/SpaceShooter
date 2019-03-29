@@ -5,7 +5,7 @@ ABBREVIATION=""
 
 case $1 in
 	"-w")
-		ABBREVIATION="Web"	
+		ABBREVIATION="Web"
 	;;
 	"-p")
 		ABBREVIATION="PC"
